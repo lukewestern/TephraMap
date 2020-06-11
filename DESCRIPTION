@@ -13,9 +13,10 @@ Description: These functions aim to use measurements of tephra thickness to crea
  522100, 1378210, 15 
  521140, 1377890, 120
  Estimates are done on a 2D plain except for super eruptions (super=TRUE) when it is calculated on the globe, i.e. curvature is taken into account.  
- Install it by doing: 
+ Installation requires downloading INLA package by doing: 
  install.packages(''INLA'', repos=c(getOption(''repos''), INLA=''https://inla.r-inla-download.org/R/stable''), dep=TRUE) 
- install.packages(''<path-to>/TephraMap'')
+ Followed by installing the TephraMap package using devtools using:
+ devtools::install_github('lukewestern/TephraMap')
  References:
  Lindgren, F. and H. Rue, 2015. Bayesian spatial modelling with r-inla. Journal of Statistical Software, 63(19).
 License: CC BY 3.0
