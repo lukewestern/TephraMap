@@ -6,8 +6,10 @@ The function tephra.map() takes a csv file containing sampled tephra thickness t
  522100, 1378210, 15 <br/>
  521140, 1377890, 120 <br/>
  Estimates are done on a 2D plain except for super eruptions (super=TRUE) when it is calculated on the globe, i.e. curvature is taken into account. <br/> 
- Install it by doing: <br/>  
+ <br/>
+ Install it by doing:<br/>
  install.packages(''INLA'', repos=c(getOption(''repos''), INLA=''https://inla.r-inla-download.org/R/stable''), dep=TRUE) <br/>
  install.packages(''<path-to>/TephraMap'') <br/>
+ <br/>
  References:<br/>
  Lindgren, F. and H. Rue, 2015. Bayesian spatial modelling with r-inla. Journal of Statistical Software, 63(19).
